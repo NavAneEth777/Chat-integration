@@ -7,7 +7,7 @@ import Home from './Home.js';
 const Main = () => {
     return(
         <Routes>
-            <Route path="/" Component={<Home/>}/>
+            <Route path="/" element={<Home/>}/>
         </Routes>
     );
 }
